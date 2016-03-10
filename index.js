@@ -30,7 +30,7 @@ var opts = {
 }
 
 // Create our server.
-var server = new Hapi.Server({ debug: { request: ['error'] } })
+var server = new Hapi.Server({debug: {request: ['error']}})
 server.connection(
   {
     host: opts.server.host,
@@ -44,16 +44,18 @@ var plugins = [
   {register: Cookie},
   {register: Chairo, options: opts.chairo},
   {register: Nes},
-  {register: Good, options: opts.good},
-  {register: Services}
+  {register: Good, options: opts.good}
 ]
 
 server.register(plugins,
-function (err) {
-  if (err) {
-    throw err;
-  }
-  server.start(function () {
-    console.log('listening on port: ' + process.env.SERVICE_PORT);
+  function (err) {
+    if (err) {
+      throw err;
+    }
+
+    server.seneca.use(Services)
+
+    server.start(function () {
+      console.log('listening on port: ' + process.env.SERVICE_PORT);
+    });
   });
-});
