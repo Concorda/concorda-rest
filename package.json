@@ -6,7 +6,7 @@
   "scripts": {
     "test": "lab test/*.test.js -r console -v -L -m 3000",
     "start": "node index.js",
-    "lint": "lab test -dL",
+    "lint": "lab test -dL"
   },
   "repository": {
     "type": "git",
