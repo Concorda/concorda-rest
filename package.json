@@ -25,6 +25,7 @@
   ],
   "dependencies": {
     "chairo": "2.0.x",
+    "concorda": "concorda/concorda",
     "good": "6.4.x",
     "good-console": "5.1.X",
     "hapi": ">=12.x.x"
