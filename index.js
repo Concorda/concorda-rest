@@ -5,8 +5,6 @@ var Bell = require('bell')
 var Chairo = require('chairo')
 var Cookie = require('hapi-auth-cookie')
 var Nes = require('nes')
-var Frontend = require('./frontend')
-var Backend = require('./backend')
 var Good = require('good')
 var GoodConsole = require('good-console')
 
