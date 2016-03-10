@@ -33,7 +33,7 @@
     "hapi-auth-cookie": "6.1.x",
     "nes": "4.0.x",
     "seneca-balance-client": "0.4.x",
-    "seneca-mesh": "0.x.x"
+    "seneca-mesh": "0.5.x"
   },
   "author": "Mircea Alexandru (http://alexandrumircea.ro)",
   "license": "MIT",
