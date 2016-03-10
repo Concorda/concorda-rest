@@ -2,11 +2,11 @@
   "name": "concorda-rest",
   "version": "0.0.1",
   "description": "Concorda REST API implementation",
-  "main": "index.js",
+  "main": "lib/services.js",
   "scripts": {
     "test": "lab test/*.test.js -r console -v -L -m 3000",
     "start": "node index.js",
-    "lint": "lab test -dL",
+    "lint": "lab test -dL"
   },
   "repository": {
     "type": "git",
@@ -24,10 +24,16 @@
     "fuge"
   ],
   "dependencies": {
+    "bell": "7.1.0",
     "chairo": "2.0.x",
-    "good": "6.4.x",
-    "good-console": "5.1.X",
-    "hapi": ">=12.x.x"
+    "concorda": "github:concorda/concorda#split",
+    "good": "6.4.0",
+    "good-console": "5.1.0",
+    "hapi": ">=12.x.x",
+    "hapi-auth-cookie": "6.1.x",
+    "nes": "4.0.x",
+    "seneca-balance-client": "0.4.x",
+    "seneca-mesh": "0.5.x"
   },
   "author": "Mircea Alexandru (http://alexandrumircea.ro)",
   "license": "MIT",
