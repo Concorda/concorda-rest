@@ -26,7 +26,7 @@
   "dependencies": {
     "bell": "7.1.0",
     "chairo": "2.0.x",
-    "concorda": "github:concorda/concorda#split",
+    "concorda": "github:concorda/concorda",
     "good": "6.4.0",
     "good-console": "5.1.0",
     "hapi": ">=12.x.x",
