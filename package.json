@@ -1,6 +1,6 @@
 {
   "name": "concorda-rest",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Concorda REST API implementation",
   "main": "lib/services.js",
   "scripts": {
