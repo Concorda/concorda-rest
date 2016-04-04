@@ -26,14 +26,12 @@
   "dependencies": {
     "bell": "7.1.0",
     "chairo": "2.0.x",
-    "concorda": "concorda/concorda",
+    "concorda": "concorda/concorda#test",
     "good": "6.4.0",
     "good-console": "5.1.0",
     "hapi": ">=12.x.x",
     "hapi-auth-cookie": "6.1.x",
-    "nes": "4.0.x",
-    "seneca-balance-client": "0.4.x",
-    "seneca-mesh": "0.7.x"
+    "nes": "4.0.x"
   },
   "author": "Mircea Alexandru (http://alexandrumircea.ro)",
   "license": "MIT",
