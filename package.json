@@ -32,8 +32,8 @@
     "hapi": ">=12.x.x",
     "hapi-auth-cookie": "6.1.x",
     "nes": "4.0.x",
-    "seneca-balance-client": "0.2.x",
-    "seneca-mesh": "0.5.x"
+    "seneca-balance-client": "0.4.x",
+    "seneca-mesh": "0.7.x"
   },
   "author": "Mircea Alexandru (http://alexandrumircea.ro)",
   "license": "MIT",
