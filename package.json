@@ -1,6 +1,6 @@
 {
   "name": "concorda-rest",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Concorda REST API implementation",
   "main": "lib/services.js",
   "scripts": {
@@ -26,7 +26,7 @@
   "dependencies": {
     "bell": "7.1.0",
     "chairo": "2.0.x",
-    "concorda": "0.0.x",
+    "concorda": "0.x.x",
     "good": "6.4.0",
     "good-console": "5.1.0",
     "hapi": ">=12.x.x",
